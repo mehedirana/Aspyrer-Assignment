@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SignInScreen =()=>{
+const SignInScreen =({navigation})=>{
     return (
         <KeyboardAvoidingView >
           <Header span>
