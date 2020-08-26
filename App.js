@@ -5,6 +5,10 @@ import HomeScreen from './screens/HomeScreen';
 import LoadScreen from './screens/LoadScreen';
 import LogInScreen from './screens/LogInScreen';
 import RegisterScreen from './screens/RegisterScreen';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+import * as firebase from 'firebase';
+import {firebaseConfig} from './config';
+firebase.initializeApp(firebaseConfig);
 
 const Stack = createStackNavigator();
 

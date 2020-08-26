@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 const LogInScreen = () =>{
 

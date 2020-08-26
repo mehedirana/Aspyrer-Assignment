@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View} from 'react-native';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 import * as firebase from 'firebase';
 
 export class LoadScreen extends Component{
