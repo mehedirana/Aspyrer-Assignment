@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-const HomeScreen = () =>{
+export class HomeScreen extends Component{
 
+    render(){
     return(
         <View>
             <text>Home screeen</text>
         </View>
 
     )
+ }
 }
-
- export default HomeScreen;

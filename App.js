@@ -17,10 +17,10 @@ export class App extends React.Component {
 render(){
   return (
   <Stack.Navigator>
-    <Stack.Screen name="Home" component={HomeScreen}/>
-    <Stack.Screen name="Home" component={LoadScreen}/>
+    {/* <Stack.Screen name="Home" component={HomeScreen}/>
+    <Stack.Screen name="Home" component={LoadScreen}/> */}
     <Stack.Screen name="Home" component={LogInScreen}/>
-    <Stack.Screen name="Home" component={RegisterScreen}/>
+    {/* <Stack.Screen name="Home" component={RegisterScreen}/> */}
   </Stack.Navigator>
   );
 }

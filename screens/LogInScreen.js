@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-const LogInScreen = () =>{
+export class LogInScreen extends Component{
 
+    render(){
     return(
-        <View>
+        <View style={styles.contrainer}>
             <text>log in screeen</text>
         </View>
 
     )
+    }
 }
 
- export default LogInScreen;
+const styles = StyleSheet.create({
+    contrainer: {
+        flex:1,
+        justifyContent: "center",
+        alignItems: "center",
+        
+    },
+})
