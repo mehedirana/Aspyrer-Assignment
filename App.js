@@ -6,12 +6,11 @@ import LoadScreen from './screens/LoadScreen';
 import LogInScreen from './screens/LogInScreen';
 import RegisterScreen from './screens/RegisterScreen';
 
-
-
 const Stack = createStackNavigator();
 
-export default function App() {
+export class App extends React.Component {
 
+render(){
   return (
   <Stack.Navigator>
     <Stack.Screen name="Home" component={HomeScreen}/>
@@ -20,6 +19,7 @@ export default function App() {
     <Stack.Screen name="Home" component={RegisterScreen}/>
   </Stack.Navigator>
   );
+}
 }
 
 const styles = StyleSheet.create({
